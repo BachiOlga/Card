@@ -5,10 +5,17 @@
 }
 
 .card {
-    background: url(../img/Ethereum.png) no-repeat center center;
     border-radius: 10px;
-    padding: 30px 30px;
-    padding-top: 25px;
+    padding:25px 30px 30px; 
+}
+.card__ethereum {
+    background: url(../img/Ethereum.png) no-repeat center center;
+}
+.card__litecoin {
+    background: url(../img/Litecoin.png) no-repeat center center;
+}
+.card__bitcoin {
+    background: url(../img/Bitcoin.png) no-repeat center center;
 }
 
 .card__title {
@@ -22,7 +29,7 @@
 .price {
     display: flex;
     justify-content: space-between;
-   
+   padding:48px;
     
     
     // width: 308px;
