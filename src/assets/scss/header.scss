@@ -1,6 +1,9 @@
 .header {
     padding-top: 70px;
     position: relative;
+    @include small {
+        padding-top: 0;
+    }
 }
 
 .header__info {
@@ -11,6 +14,9 @@
     justify-content: space-between;
     background-color: rgba(252, 252, 252, 0.02);
     border-radius: 10px;
+    @include small {
+        border-radius: 0;
+    }
 }
 
 .header__title {
@@ -18,6 +24,9 @@
     font-size: 32px;
     line-height: 60px;
     font-weight: 500;
+    @include small {
+        font-size: 27px;
+    }
 }
 
 .header__btn {
@@ -30,6 +39,11 @@
     width: 296px;
     display: flex;
     justify-content: space-between;
+    @include small {
+        width: 240px;
+        margin-right: 25px;
+        
+    }
 }
 
 .header__btn-dsr {

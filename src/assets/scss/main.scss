@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    @include small {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
 }
 
-.card {
-    border-radius: 10px;
-    padding: 25px 30px 30px;
-    height: 355px;
-}
+
 
 .card__ethereum {
     background: url(../img/Ethereum.png) no-repeat center center;
@@ -27,6 +28,16 @@
     font-weight: 700;
     text-align: center;
     margin: 0;
+    
+}
+.card {
+    border-radius: 10px;
+    padding: 25px 30px 30px;
+  background-size: cover;
+  @include small {
+    padding: 45px 169px 168px;
+    border-radius: 0;
+}
 }
 
 .price {
@@ -64,6 +75,7 @@
     font-weight: 700;
     font-size: 14px;
     padding-right: 100px;
+    
 }
 
 .card__number {
