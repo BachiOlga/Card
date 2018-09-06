@@ -19,6 +19,7 @@
 .price {
     display: flex;
     justify-content: space-between;
+    
     // width: 308px;
 }
 
@@ -32,11 +33,16 @@
     font-weight: 700;
 }
 
-.card__list {}
+.card__list {
+    margin-top: 20px;
+}
 
 .card__item {
     display: flex;
     justify-content: space-between;
+}
+.card__item:not(:first-child) {
+    margin-top: 15px;
 }
 
 .card__link {
@@ -58,6 +64,7 @@
 
 .card__toggle {
     display: block;
+    margin-top: 20px;
 }
 
 .switch {
