@@ -2,6 +2,7 @@
     padding-top: 70px;
     position: relative;
 }
+
 .header__info {
     display: flex;
     border: 1px solid #2b3c45;
@@ -45,6 +46,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .header__topbar {
     display: flex;
     flex-direction: column;
@@ -59,16 +61,18 @@
     top: 0;
     right: 0;
 }
+
 .header__topbar-btn {
     display: block;
-   padding: 0;
-   font-weight: 300;
+    padding: 0;
+    font-weight: 300;
     font-size: 16px;
 }
 
 .header__topbar-btn:not(:first-child) {
     margin-top: 8px;
 }
-// .header__topbar {
-//     display: none;
-// }
+
+.header__topbar {
+    display: none;
+}
