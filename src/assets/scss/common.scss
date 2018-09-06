@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
+*{
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
 body {
+    min-height: 100%;
     margin: 0;
-    background: url(../img/body.png);
+    background: url(../img/body.png) no-repeat center center;
+    background-size: cover;
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    width: 985px;
+    max-width: 985px;
     margin: 0 auto;
 }
 
