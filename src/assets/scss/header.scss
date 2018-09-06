@@ -1,6 +1,7 @@
 .header {
     padding-top: 70px;
     position: relative;
+
     @include small {
         padding-top: 0;
     }
@@ -14,8 +15,14 @@
     justify-content: space-between;
     background-color: rgba(252, 252, 252, 0.02);
     border-radius: 10px;
+
     @include small {
         border-radius: 0;
+    }
+
+    @include extra-small {
+        font-size: 17px;
+        display: block;
     }
 }
 
@@ -24,8 +31,15 @@
     font-size: 32px;
     line-height: 60px;
     font-weight: 500;
+
     @include small {
         font-size: 27px;
+    }
+
+    @include extra-small {
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
     }
 }
 
@@ -39,10 +53,15 @@
     width: 296px;
     display: flex;
     justify-content: space-between;
+
     @include small {
         width: 240px;
         margin-right: 25px;
-        
+    }
+
+    @include extra-small {
+        width: 100%;
+        margin-top: 10px;
     }
 }
 
