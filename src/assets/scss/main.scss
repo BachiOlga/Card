@@ -5,7 +5,10 @@
 }
 
 .card {
-    // background: url(../img/ethereum.png) no-repeat center center;
+    background: url(../img/Ethereum.png) no-repeat center center;
+    border-radius: 10px;
+    padding: 30px 30px;
+    padding-top: 25px;
 }
 
 .card__title {
@@ -13,12 +16,14 @@
     font-weight: 700;
     text-align: center;
     margin: 0;
-    padding-top: 25px;
+    
 }
 
 .price {
     display: flex;
     justify-content: space-between;
+   
+    
     
     // width: 308px;
 }
@@ -63,10 +68,13 @@
 }
 
 .card__toggle {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     margin-top: 20px;
 }
-
+.card__toggle-drs {
+    display: block;
+}
 .switch {
     display: inline-block;
     height: 16px;
