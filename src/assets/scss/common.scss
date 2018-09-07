@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -20,7 +20,10 @@ body {
 .container {
     max-width: 985px;
     margin: 0 auto;
-    
+
+    @include small {
+        padding: 0 15px;
+    }
 }
 
 li {

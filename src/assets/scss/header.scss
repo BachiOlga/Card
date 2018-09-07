@@ -18,6 +18,7 @@
 
     @include small {
         border-radius: 0;
+        padding: 9px 66px;
     }
 
     @include extra-small {
