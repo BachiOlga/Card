@@ -45,8 +45,6 @@
 }
 
 .card:not(:first-child) {
-    margin-top: 15px;
-
     @include extra-small {
         margin-top: 15px;
         margin-bottom: 15px;
