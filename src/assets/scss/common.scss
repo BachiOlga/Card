@@ -15,6 +15,10 @@ body {
     background-size: cover;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    @include small {
+        background: #fff;
+        color: black
+    }
 }
 
 .container {

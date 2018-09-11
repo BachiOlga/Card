@@ -35,6 +35,7 @@
 
     @include small {
         font-size: 27px;
+        color: #5d5d5d;
     }
 
     @include extra-small {
@@ -58,6 +59,7 @@
     @include small {
         width: 240px;
         margin-right: 25px;
+        background:#b4bac0;
     }
 
     @include extra-small {

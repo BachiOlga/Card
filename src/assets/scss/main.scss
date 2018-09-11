@@ -7,6 +7,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         margin-top: 0;
+        color: #fff;
     }
 }
 
@@ -55,17 +56,22 @@
     display: flex;
     justify-content: space-between;
     padding-top: 148px;
-    // width: 308px;
+    @include extra-small {
+        color: #fff;
+    }
+    
 }
 
 .price__title {
     font-size: 20px;
     font-weight: 700;
+    
 }
 
 .price__number {
     font-size: 21px;
     font-weight: 700;
+    
 }
 
 .card__list {
